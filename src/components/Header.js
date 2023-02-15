@@ -14,7 +14,7 @@ function Header() {
   }
 
   return (
-    <header className="fixed z-10 top-0 w-full shadow flex items-center justify-between bg-[#0D0D2B] h-[60px] md:px-16 px-8 text-white">
+    <header className=" max-w-screen-xl fixed z-10 top-0 w-full shadow flex items-center justify-between bg-[#0D0D2B] h-[60px] md:px-16 px-8 text-white">
       <h1 className="text-xl font-bold ">TRACKANGEL</h1>
       <nav
         className={`absolute bg-[#0D0D2B] ${
